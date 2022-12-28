@@ -21,7 +21,7 @@ public class Robot extends TimedRobot {
   private Joystick m_rightStick;
 
   private final MotorController m_leftMotor = new PWMSparkMax(0);
-  private final MotorController m_rightMotor = new PWMSparkMax(1);
+  private final MotorController m_rightMotor = new PWMSparkMax(5);
 
   @Override
   public void robotInit() {
